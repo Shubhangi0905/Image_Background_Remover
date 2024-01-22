@@ -1,0 +1,88 @@
+body {
+    animation: gradientAnimation 20s ease infinite; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background: linear-gradient(45deg, #FF6B6B, #5DBB63); 
+    }
+    25% {
+        background: linear-gradient(45deg, #5DBB63, #5DBBD6); 
+    }
+    50% {
+        background: linear-gradient(45deg, #5DBBD6, #FFC172); 
+    }
+    75% {
+        background: linear-gradient(45deg, #FFC172, #FF6B6B); 
+    }
+    100% {
+        background: linear-gradient(45deg, #FF6B6B, #5DBB63); 
+    }
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    max-width: 150px;
+}
+.row{
+    width: 30%;
+    margin-left: 30%;
+}
+.container-1{
+    width: 60;
+}
+h2 {
+    color: #333; 
+    font-size: 40px; 
+    text-align: center; 
+    margin-top: 20px; 
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    letter-spacing:.2rem;
+    line-height: normal;
+    }
+.upload {
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+.upload .btn {
+    background: linear-gradient(45deg, #007bff, #00bfff); 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.upload .btn:hover {
+    background: linear-gradient(45deg, #0056b3, #00a3cc);
+}
+.download-btn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.download-btn .btn {
+    background: linear-gradient(45deg, #4caf50, #8bc34a); 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.download-btn .btn:hover {
+    background: linear-gradient(45deg, #388e3c, #689f38); 
+}
